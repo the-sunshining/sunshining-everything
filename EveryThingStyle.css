@@ -1,0 +1,90 @@
+body {
+	min-width: 99%
+}
+#TheSunShiningEverythingSidebar {
+position: fixed;
+bottom: 10px;
+width: 100%;
+background-color: lightgray;
+height: 50px;
+padding: 10px;
+border: 1px solid black;
+text-align: center;
+}
+#TheSunShiningEverythingNavPopup{
+padding: 250px;
+padding-bottom: 160px;
+	display: none;
+	background-color: lightgray;
+	border: 5px solid black;
+	 opacity: 0.8;
+		position: absolute;
+}
+#TheSunShiningEverythingNavPopup:hover {
+	 opacity: 1;
+}
+.SideBarShortCut {
+margin-left: 20px;
+margin-right: 20px;
+width: 50px;
+}
+.PopupShortCut {
+	float: left;
+	width: 100px;
+	margin: 30px;
+}
+body {
+background-color: yellow;
+}
+#header {
+border: 5px solid black;
+}
+.header {
+font-family: arial;
+}
+#MainView {
+
+}
+
+iframe  {
+  width: 100vw;
+    height: 80vh;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+  box-sizing: border-box;
+}
+
+#TheSunShiningHeadSite {
+
+}
+
+#SunBibleSite {
+display: none;
+}
+
+#LifeOfJesusSite {
+display: none;
+}
+.LifeOfJesusSite {
+  height: 75vh;
+}
+#HowToGetToHeavenSite {
+display: none;
+}
+#MyChristianTeacupSite {
+display: none;
+}
+#MySmallOnlineBookMarketSite {
+display: none;
+  height: 80vh;
+}
+#more {
+display: none;
+  height: 80vh;
+}
+#search {
+float: right;
+width: 300px;
+}
