@@ -1,6 +1,35 @@
 body {
 	min-width: 99%
 }
+
+ /* Nav */
+ nav {
+   position: absolute;
+   right: 0px;
+   top: 0px;
+   bottom: 0px;
+   min-width: 100px;
+   background-color: blue;
+   padding: 20px;
+ }
+ .Nav_C {
+	/* Blank */
+}
+.Nav_b:hover {
+	width: 40px;
+	height: 7px;
+}
+	 .Nav_b {
+		width: 35px;
+		height: 5px;
+		background-color: black;
+		margin: 6px 0;
+    }
+    #TheSunShiningEverythingSidebar { 
+      display: none;
+      width: 250px;
+    } 
+ /* 
 #TheSunShiningEverythingSidebar {
 position: fixed;
 bottom: 10px;
@@ -11,7 +40,15 @@ padding: 10px;
 border: 1px solid black;
 text-align: center;
 }
-#TheSunShiningEverythingNavPopup{
+*/
+.SideBarShortCut {
+  margin: 10px;
+  width: 50px;
+  float: left;
+  }
+
+/*
+#TheSunShiningEverythingNavPopup {
 padding: 250px;
 padding-bottom: 160px;
 	display: none;
@@ -23,16 +60,12 @@ padding-bottom: 160px;
 #TheSunShiningEverythingNavPopup:hover {
 	 opacity: 1;
 }
-.SideBarShortCut {
-margin-left: 20px;
-margin-right: 20px;
-width: 50px;
-}
 .PopupShortCut {
 	float: left;
 	width: 100px;
 	margin: 30px;
 }
+*/
 body {
 background-color: yellow;
 }
