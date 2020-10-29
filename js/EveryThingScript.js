@@ -7,7 +7,7 @@ document.getElementById("TeaCup").addEventListener("click", showCup);
 document.getElementById("BookMarket").addEventListener("click", showBookMarket);
 document.getElementById("More").addEventListener("click", showMore);
 };
-(function showHome() {
+function showHome() {
 document.getElementById('TheSunShiningHeadSite').style.display='block';
 document.getElementById('SunBibleSite').style.display='none';
 document.getElementById('LifeOfJesusSite').style.display='none';

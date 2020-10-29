@@ -1,0 +1,17 @@
+body {
+    min-width: 500px;
+background-color: rgb(245, 247, 125);
+padding: 30px;
+border: 5px solid black;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+}
+
+.ShortCut {
+margin: 20px;
+width: 100px;
+border: 1px solid red;
+}
+.ShortCut:hover {
+    border: 1px solid blue;
+}
