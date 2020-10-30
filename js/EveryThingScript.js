@@ -7,6 +7,7 @@ $(document).ready(function(){
 		$("#HowToGetToHeavenSite").css("display", "none");
 		$("#MyChristianTeacupSite").css("display", "none");
 		$("#more").css("display", "none");
+		$("#TheSunShiningEverythingSidebar").toggle();
 	});
 
 	$("#SunBible").click(function(){
@@ -16,6 +17,7 @@ $(document).ready(function(){
 		$("#HowToGetToHeavenSite").css("display", "none");
 		$("#MyChristianTeacupSite").css("display", "none");
 		$("#more").css("display", "none");
+		$("#TheSunShiningEverythingSidebar").toggle();
 	});
 
 	$("#JesusLife").click(function(){
@@ -25,33 +27,37 @@ $(document).ready(function(){
 		$("#HowToGetToHeavenSite").css("display", "none");
 		$("#MyChristianTeacupSite").css("display", "none");
 		$("#more").css("display", "none");
+		$("#TheSunShiningEverythingSidebar").toggle();
 	});
 
 	$("#toHeaven").click(function(){
-		$("#TheSunShiningHeadSite").css("display", "block");
+		$("#TheSunShiningHeadSite").css("display", "none");
 		$("#SunBibleSite").css("display", "none");
 		$("#LifeOfJesusSite").css("display", "none");
-		$("#HowToGetToHeavenSite").css("display", "none");
+		$("#HowToGetToHeavenSite").css("display", "block");
 		$("#MyChristianTeacupSite").css("display", "none");
 		$("#more").css("display", "none");
+		$("#TheSunShiningEverythingSidebar").toggle();
 	});
 
 	$("#TeaCup").click(function(){
-		$("#TheSunShiningHeadSite").css("display", "block");
+		$("#TheSunShiningHeadSite").css("display", "none");
 		$("#SunBibleSite").css("display", "none");
 		$("#LifeOfJesusSite").css("display", "none");
 		$("#HowToGetToHeavenSite").css("display", "none");
-		$("#MyChristianTeacupSite").css("display", "none");
+		$("#MyChristianTeacupSite").css("display", "block");
 		$("#more").css("display", "none");
+		$("#TheSunShiningEverythingSidebar").toggle();
 	});
 
 	$("#More").click(function(){
-		$("#TheSunShiningHeadSite").css("display", "block");
+		$("#TheSunShiningHeadSite").css("display", "none");
 		$("#SunBibleSite").css("display", "none");
 		$("#LifeOfJesusSite").css("display", "none");
 		$("#HowToGetToHeavenSite").css("display", "none");
 		$("#MyChristianTeacupSite").css("display", "none");
-		$("#more").css("display", "none");
+		$("#more").css("display", "block");
+		$("#TheSunShiningEverythingSidebar").toggle();
 	});
 
 
