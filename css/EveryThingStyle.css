@@ -10,13 +10,24 @@ body {
    top: 0px;
    bottom: 0px;
    min-width: 3vw;
-   background-color: blue;
+   background-color: rgba(0, 0, 255, 0.596);
    padding: 20px;
    z-index: 1;
  }
+ nav:hover {
+  background-color: blue;
+ }
+ nav p {
+   width: 100%;
+   background-color: teal;
+   float: left;
+   clear: both;
+ }
+ /*
  .Nav_C {
-	/* Blank */
+	 Blank 
 }
+*/
 .Nav_b:hover {
 	width: 40px;
 	height: 7px;
@@ -71,17 +82,20 @@ padding-bottom: 160px;
 
 header {
 background-color: yellow;
+padding: 3px;
+margin: 3px;
+border-radius: 20px;
+width: 90vw;
 }
-.header_p {
-display: none;
-}
+
+/*
 #MainView {
 
 }
+*/
 
 iframe  {
-  position: absolute;
-  left: 20px;
+  float: left;
   width: 90vw;
     height: 80vh;
     max-height: 90vh;
@@ -89,13 +103,16 @@ iframe  {
   margin: 0;
   padding: 0;
   border: 5px solid black;
+  border-radius: 20px;
   box-sizing: border-box;
   z-index: 0;
 }
 
+/*
 #TheSunShiningHeadSite {
 
 }
+*/
 
 #SunBibleSite {
 display: none;
