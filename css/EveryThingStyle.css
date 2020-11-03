@@ -116,6 +116,10 @@ iframe  {
 }
 */
 
-#SunBibleSite, #LifeOfJesusSite, #HowToGetToHeavenSite, #SunFromDeathBookSite, #MilkBookSite, #MyChristianTeacupSite, #more {
+#SunBibleSite,
+#LifeOfJesusSite, #HowToGetToHeavenSite,
+#SunFromDeathBookSite, #MilkBookSite,
+#SunPodSite, #CemPodSite,
+#more {
 display: none;
 }
