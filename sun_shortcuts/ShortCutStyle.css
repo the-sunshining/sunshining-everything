@@ -14,3 +14,9 @@ border: 1px solid red;
 .ShortCut:hover {
     border: 1px solid blue;
 }
+
+h3 {
+    width: 100%;
+    background-color: teal;
+    padding: 5px;
+}
