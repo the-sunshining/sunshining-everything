@@ -9,7 +9,7 @@ $(document).ready(function(){
 		$("#more").css("display", "none");
 		$("#TheSunShiningEverythingSidebar").toggle();
 	});
-
+// SunBible
 	$("#SunBible").click(function(){
 		$("#TheSunShiningHeadSite").css("display", "none");
 		$("#SunBibleSite").css("display", "block");
@@ -40,6 +40,12 @@ $(document).ready(function(){
 		$("#TheSunShiningEverythingSidebar").toggle();
 	});
 
+	// Books
+
+
+
+
+	//Other
 	$("#TeaCup").click(function(){
 		$("#TheSunShiningHeadSite").css("display", "none");
 		$("#SunBibleSite").css("display", "none");

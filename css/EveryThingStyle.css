@@ -10,18 +10,19 @@ body {
    top: 0px;
    bottom: 0px;
    min-width: 3vw;
+   max-width: 50%;
    background-color: rgba(0, 0, 255, 0.596);
    padding: 20px;
    z-index: 1;
  }
  nav:hover {
   background-color: blue;
+  overflow: auto;
  }
  nav p {
-   width: 100%;
    background-color: teal;
    float: left;
-   clear: both;
+   width: 100%;
  }
  /*
  .Nav_C {
@@ -40,7 +41,8 @@ body {
     }
     #TheSunShiningEverythingSidebar { 
       display: none;
-      width: 250px;
+      min-width: 100%;
+      width: 600px;
     } 
  /* 
 #TheSunShiningEverythingSidebar {
@@ -56,7 +58,7 @@ text-align: center;
 */
 .SideBarShortCut {
   margin: 10px;
-  width: 50px;
+  width: 100px;
   float: left;
   }
 
@@ -114,31 +116,6 @@ iframe  {
 }
 */
 
-#SunBibleSite {
+#SunBibleSite, #LifeOfJesusSite, #HowToGetToHeavenSite, #SunFromDeathBookSite, #MilkBookSite, #MyChristianTeacupSite, #more {
 display: none;
-}
-
-#LifeOfJesusSite {
-display: none;
-}
-.LifeOfJesusSite {
-  height: 75vh;
-}
-#HowToGetToHeavenSite {
-display: none;
-}
-#MyChristianTeacupSite {
-display: none;
-}
-#MySmallOnlineBookMarketSite {
-display: none;
-  height: 80vh;
-}
-#more {
-display: none;
-  height: 80vh;
-}
-#search {
-float: right;
-width: 300px;
 }
