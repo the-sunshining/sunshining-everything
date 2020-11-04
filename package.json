@@ -40,7 +40,7 @@
   "version": "0.0.1",
   "description": "Quick and easy access to everything by The SunShining",
   "main": "main.js",
-  "homepage": "https://the-sunshining.github.io/SunBible/",
+  "homepage": "https://github.com/the-sunshining/thesunshining-everything",
   "license": "MIT",
   "maintainers": [
     "NCR",
@@ -48,12 +48,12 @@
   ],
   "author": "The SunShining <thesunshining@gmail.com> (www.thesunshining.weebly.com)",
   "keywords": [
-    "Bible",
-    "SunBible"
+    "SunShining",
+    "EveryThing"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/the-sunshining/SunBible.git"
+    "url": "https://github.com/the-sunshining/thesunshining-everything.git"
   },
   "devDependencies": {
     "electron": "^11.0.0-beta.13",
@@ -69,12 +69,10 @@
     "apk": "electron-builder --linux apk",
     "appx": "electron-builder --windows appx",
     "nsis": "electron-builder --win nsis",
-    "dmg": "electron-builder --mac dmg",
-    "ebPublish": "electron-builder --publish onTagOrDraft"
+    "dmg": "electron-builder --mac dmg"
   },
   "dependencies": {
-    "electron-context-menu": "^2.3.0",
-    "electron-updater": "^4.3.5"
+    "electron-context-menu": "^2.3.0"
   }
   
 }
