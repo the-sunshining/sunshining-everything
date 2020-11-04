@@ -1,0 +1,17 @@
+{
+   "author": "The SunShining",
+   "browser_action": {
+      "default_icon": "sun_shortcuts/img/Sun.png",
+      "default_popup": "sun_shortcuts/shortcut.html"
+   },
+   "description": "ShortCuts to The SunShining Sites",
+   "icons": {
+      "128": "sun_shortcuts/img/Sun.png",
+      "16": "sun_shortcuts/img/Sun.png",
+      "48": "sun_shortcuts/img/Sun.png"
+   },
+  "manifest_version": 2,
+   "name": "SunShining ShortCuts",
+   "offline_enabled": false,
+   "version": "3.0"
+}
