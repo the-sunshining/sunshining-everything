@@ -74,5 +74,4 @@
   "dependencies": {
     "electron-context-menu": "^2.3.0"
   }
-  
 }
