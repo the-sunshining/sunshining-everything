@@ -33,3 +33,5 @@ jobs:
           name: dist_githubactions
           path: |
             dist
+    - name: Download all workflow run artifacts
+      uses: actions/download-artifact@v2
