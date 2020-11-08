@@ -30,8 +30,6 @@ jobs:
     - name: Archive production artifacts
       uses: actions/upload-artifact@v2
       with:
-          name: dist_githubactions
+          name: dist_githubactions_linux
           path: |
             dist
-    - name: Download all workflow run artifacts
-      uses: actions/download-artifact@v2
