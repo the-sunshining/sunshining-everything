@@ -30,15 +30,6 @@ jobs:
     - name: Archive production artifacts
       uses: actions/upload-artifact@v2
       with:
-          name: dist
+          name: dist_githubactions
           path: |
             dist
-            
-    - uses: actions/download-artifact@v2
-  with:
-    name: dist
-    path: dist
-    
-    - name: Display structure of downloaded files
-  run: ls -R
-  working-directory: dist
