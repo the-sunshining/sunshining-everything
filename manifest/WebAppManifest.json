@@ -2,18 +2,42 @@
   "name": "The SunShining Everything",
   "description": "Quick and easy access to everything by The SunShining",
   "short_name":"SunShining EveryThing",
+  "categories": ["SunShining", "NCR", "Christian"],
   "manifest_version": 2,
   "author": "The SunShining",
   "icons": [
     {
-      "src": "Sun.png",
+      "src": "../sun_shortcuts/img/Sun.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "img/Sun.png",
+      "src": "../sun_shortcuts/img/Sun.png",
       "type": "image/png",
       "sizes": "512x512"
+    }
+  ],
+  "screenshots" : [
+    {
+      "src": "../screenshots/Screenshot_1.png",
+      "sizes": "1280x720",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "The SunShining EveryThing",
+      "short_name": "EveryThing Home",
+      "description": "Quick and easy access to everything by The SunShining",
+      "url": "../index.html",
+      "icons": [{ "src": "../sun_shortcuts/img/Sun.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "SunShining ShortCuts",
+      "short_name": "ShortCuts",
+      "description": "ShortCuts and links to everything by The SunShining",
+      "url": "../sun_shortcuts/shortcut.html",
+      "icons": [{ "src": "./sun_shortcuts/img/Sun.png", "sizes": "192x192" }]
     }
   ],
   "start_url": "../index.html",
