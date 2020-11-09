@@ -35,15 +35,53 @@ app.on('ready', async () => {
 const isMac = process.platform === 'darwin'
 const template = [
   {
-    label: 'SunBible',
+    label: 'EveryThing',
     submenu: [
-    { label: 'Copy Bible Verses', role: 'copy' },
+      {
+        label: 'Open SunShining EveryThing in your browser',
+        click: async () => {
+          const { shell } = require('electron')
+          await shell.openExternal('https://the-sunshining.github.io/thesunshining-everything/')
+        }
+      },
       { type: 'separator' },
       {
-        label: 'View SunBible Online',
+        label: 'Open SunShining ShortCuts in your browser',
         click: async () => {
           const { shell } = require('electron')
           await shell.openExternal('https://the-sunshining.github.io/SunBible/')
+        }
+      },
+      { type: 'separator' },
+      {
+        label: 'SunBible',
+        click: async () => {
+          const { shell } = require('electron')
+          await shell.openExternal('https://the-sunshining.github.io/SunBible/')
+        }
+      },
+      { type: 'separator' },
+      {
+        label: 'The SunShining Podcast',
+        click: async () => {
+          const { shell } = require('electron')
+          await shell.openExternal('https://the-sunshining.github.io/The-SunShining-Podcast/')
+        }
+      },
+      { type: 'separator' },
+      {
+        label: 'The SunShining',
+        click: async () => {
+          const { shell } = require('electron')
+          await shell.openExternal('https://thesunshining.weebly.com/')
+        }
+      },
+      { type: 'separator' },
+      {
+        label: 'The SunShining Blog',
+        click: async () => {
+          const { shell } = require('electron')
+          await shell.openExternal('https://thesunshining.weebly.com/sunshining-blog.html')
         }
       },
       { type: 'separator' },
