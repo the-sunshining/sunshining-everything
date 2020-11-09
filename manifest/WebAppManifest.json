@@ -1,5 +1,9 @@
 {
   "name": "The SunShining Everything",
+  "description": "Quick and easy access to everything by The SunShining",
+  "short_name":"SunShining EveryThing",
+  "manifest_version": 2,
+  "author": "The SunShining",
   "icons": [
     {
       "src": "Sun.png",
@@ -15,7 +19,7 @@
   "start_url": "../index.html",
   "background_color": "#3367D6",
   "display": "standalone",
-  "scope": "",
+  "scope": "/thesunshining-everything/",
   "theme_color": "#3367D6"
   
 }

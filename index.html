@@ -22,15 +22,15 @@
    
     
     <p>The SunShining:</p>
-    <img src="img/Sun.png" id="SunHome" class="SideBarShortCut"> <!--I have the javascript linked to id.-->
+    <img src="sun_shortcuts/img/Sun.png" id="SunHome" class="SideBarShortCut"> <!--I have the javascript linked to id.-->
     
     <p>SunBible:</p>
-    <a><img src="img/SunBible.png" id="SunBible" class="SideBarShortCut"></a>
+    <a><img src="sun_shortcuts/img/SunBible.png" id="SunBible" class="SideBarShortCut"></a>
     
-    <img src="img/LifeOfJesus.png" id="JesusLife" class="SideBarShortCut">
+    <img src="sun_shortcuts/img/LifeOfJesus.png" id="JesusLife" class="SideBarShortCut">
     
     
-    <img src="img/HTGTH.png" id="toHeaven" class="SideBarShortCut">
+    <img src="sun_shortcuts/img/HTGTH.png" id="toHeaven" class="SideBarShortCut">
     
     <p>Books:</p>
     <img src="sun_shortcuts/img/Milk.png" id="Milk" class="SideBarShortCut">
@@ -44,7 +44,7 @@
     <!--
     <img src="img/TeaCup.jpg" id="TeaCup" class="SideBarShortCut">
     -->
-    <img src="img/More.png" id="More" class="SideBarShortCut">
+    <img src="sun_shortcuts/img/More.png" id="More" class="SideBarShortCut">
 
     
 
@@ -209,5 +209,21 @@
 <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
 <script type="text/javascript" src="js/EveryThingScript.js"></script>
 <script type="text/javascript" src="js/nav.js"></script>
+
+
+
+<!-- Service worker for web app -->
+<script>
+    if('serviceWorker' in navigator) {
+     navigator.serviceWorker
+              .register('sw.js', { scope: '/thesunshining-everything/' })
+              .then(function() { console.log("Service Worker Registered"); });
+   }
+      </script>
+
+
+
+
+
 </body>
 </html>
