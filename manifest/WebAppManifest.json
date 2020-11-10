@@ -37,7 +37,7 @@
       "short_name": "ShortCuts",
       "description": "ShortCuts and links to everything by The SunShining",
       "url": "../sun_shortcuts/shortcut.html",
-      "icons": [{ "src": "./sun_shortcuts/img/Sun.png", "sizes": "192x192" }]
+      "icons": [{ "src": "../sun_shortcuts/img/Sun.png", "sizes": "192x192" }]
     }
   ],
   "start_url": "../index.html",
