@@ -22,7 +22,7 @@ app.on('ready', async () => {
     }
   })
 
-  mainWindow.loadFile('index.html')
+  mainWindow.loadFile('docs/index.html')
 })
 
 
