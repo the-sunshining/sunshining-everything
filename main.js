@@ -3,7 +3,7 @@
 const { app, BrowserWindow, Menu, session } = require('electron')
 
 
-// Main SunBible App Activity: 
+// Main App Activity: 
 app.on('ready', async () => {
   // We cannot require the screen module until the
   // app is ready
