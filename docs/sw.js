@@ -10,12 +10,12 @@ self.addEventListener('install', e => {
   e.waitUntil(
     caches.open(cacheName).then(cache => {
       return cache.addAll([
-        '/thesunshining-everything/',
-        '/thesunshining-everything/index.html',
-        '/thesunshining-everything/sun_shortcuts/shortcut.html',
-        '/thesunshining-everything/sun_shortcuts/img/Sun.png',
-        '/thesunshining-everything/sun_shortcuts/img/SunBible.png',
-        '/thesunshining-everything/sun_shortcuts/img/More.png'
+        '/sunshining-everything/',
+        '/sunshining-everything/index.html',
+        '/sunshining-everything/sun_shortcuts/shortcut.html',
+        '/sunshining-everything/sun_shortcuts/img/Sun.png',
+        '/sunshining-everything/sun_shortcuts/img/SunBible.png',
+        '/sunshining-everything/sun_shortcuts/img/More.png'
 ])
           .then(() => self.skipWaiting());
     })
