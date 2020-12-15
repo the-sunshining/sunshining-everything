@@ -7,19 +7,19 @@
   "author": "The SunShining",
   "icons": [
     {
-      "src": "../sun_shortcuts/img/Sun.png",
+      "src": "sun_shortcuts/img/Sun.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "../sun_shortcuts/img/Sun.png",
+      "src": "sun_shortcuts/img/Sun.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
   "screenshots" : [
     {
-      "src": "../screenshots/Screenshot_1.png",
+      "src": "screenshots/Screenshot_1.png",
       "sizes": "1280x720",
       "type": "image/png"
     }
@@ -29,18 +29,18 @@
       "name": "The SunShining EveryThing",
       "short_name": "EveryThing Home",
       "description": "Quick and easy access to everything by The SunShining",
-      "url": "../index.html",
-      "icons": [{ "src": "../sun_shortcuts/img/Sun.png", "sizes": "192x192" }]
+      "url": "index.html",
+      "icons": [{ "src": "sun_shortcuts/img/Sun.png", "sizes": "192x192" }]
     },
     {
       "name": "SunShining ShortCuts",
       "short_name": "ShortCuts",
       "description": "ShortCuts and links to everything by The SunShining",
-      "url": "../sun_shortcuts/shortcut.html",
-      "icons": [{ "src": "../sun_shortcuts/img/Sun.png", "sizes": "192x192" }]
+      "url": "sun_shortcuts/shortcut.html",
+      "icons": [{ "src": "sun_shortcuts/img/Sun.png", "sizes": "192x192" }]
     }
   ],
-  "start_url": "../index.html",
+  "start_url": "index.html",
   "background_color": "#3367D6",
   "display": "standalone",
   "scope": "/thesunshining-everything/",
