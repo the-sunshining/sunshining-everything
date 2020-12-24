@@ -11,6 +11,7 @@ $(document).ready(function(){
 		$("#CemPodSite").css("display", "none");
 		$("#more").css("display", "none");
 		$("#TheSunShiningEverythingSidebar").toggle();
+		$(".Nav_C").toggleClass("change");
 	});
 // SunBible
 	$("#SunBible").click(function(){
@@ -24,6 +25,7 @@ $(document).ready(function(){
 		$("#CemPodSite").css("display", "none");
 		$("#more").css("display", "none");
 		$("#TheSunShiningEverythingSidebar").toggle();
+		$(".Nav_C").toggleClass("change");
 	});
 
 	$("#JesusLife").click(function(){
@@ -37,6 +39,7 @@ $(document).ready(function(){
 		$("#CemPodSite").css("display", "none");
 		$("#more").css("display", "none");
 		$("#TheSunShiningEverythingSidebar").toggle();
+		$(".Nav_C").toggleClass("change");
 	});
 
 	$("#toHeaven").click(function(){
@@ -50,6 +53,7 @@ $(document).ready(function(){
 		$("#CemPodSite").css("display", "none");
 		$("#more").css("display", "none");
 		$("#TheSunShiningEverythingSidebar").toggle();
+		$(".Nav_C").toggleClass("change");
 	});
 
 	// Books
@@ -65,6 +69,7 @@ $(document).ready(function(){
 		$("#CemPodSite").css("display", "none");
 		$("#more").css("display", "none");
 		$("#TheSunShiningEverythingSidebar").toggle();
+		$(".Nav_C").toggleClass("change");
 	});
 
 	$("#SunFromDeath").click(function(){
@@ -78,6 +83,7 @@ $(document).ready(function(){
 		$("#CemPodSite").css("display", "none");
 		$("#more").css("display", "none");
 		$("#TheSunShiningEverythingSidebar").toggle();
+		$(".Nav_C").toggleClass("change");
 	});
 
 	//Podcasts
@@ -93,6 +99,7 @@ $(document).ready(function(){
 		$("#CemPodSite").css("display", "none");
 		$("#more").css("display", "none");
 		$("#TheSunShiningEverythingSidebar").toggle();
+		$(".Nav_C").toggleClass("change");
 	});
 
 	$("#Cem_Pod_Link").click(function(){
@@ -106,6 +113,7 @@ $(document).ready(function(){
 		$("#CemPodSite").css("display", "block");
 		$("#more").css("display", "none");
 		$("#TheSunShiningEverythingSidebar").toggle();
+		$(".Nav_C").toggleClass("change");
 	});
 
 
@@ -123,6 +131,7 @@ $(document).ready(function(){
 		$("#CemPodSite").css("display", "none");
 		$("#more").css("display", "block");
 		$("#TheSunShiningEverythingSidebar").toggle();
+		$(".Nav_C").toggleClass("change");
 	});
 
 
