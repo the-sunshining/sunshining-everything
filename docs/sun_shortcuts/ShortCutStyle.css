@@ -66,3 +66,16 @@ button:hover, a div:hover {
       text-align: center;
       padding: 20px;
   }
+
+
+  /* Speacial 2021 */
+  .Days_of_Psalm {
+      float: right;
+      background-color: rgba(131, 255, 100, 0.777);
+      overflow: hidden;
+      width: 500px;
+      padding: 20px;
+  }
+  .Days_of_Psalm h3 {
+    text-align: center;
+  }
