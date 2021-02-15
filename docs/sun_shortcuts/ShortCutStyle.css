@@ -52,7 +52,12 @@ button:hover, a div:hover {
 .C1, .C2 {
     float: left;
     width: 45%;
+    margin: 5px;
 }
+.C1 img {
+    max-width: 100%;
+}
+
 
  /* Rounded border */
  hr.rounded {
