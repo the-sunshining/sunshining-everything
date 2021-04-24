@@ -37,7 +37,7 @@
     }
   },
   "name": "sunshining-everything",
-  "version": "0.0.4-beta-test-1",
+  "version": "0.0.4-beta-test-4",
   "description": "Quick and easy access to everything by The SunShining",
   "main": "main.js",
   "homepage": "https://github.com/the-sunshining/thesunshining-everything",
@@ -56,8 +56,8 @@
     "url": "https://github.com/the-sunshining/thesunshining-everything.git"
   },
   "devDependencies": {
-    "electron": "^11.0.0-beta.13",
-    "electron-builder": "^22.9.1"
+    "electron": "^12.0.5",
+    "electron-builder": "^22.10.5"
   },
   "scripts": {
     "start": "electron .",
@@ -82,6 +82,6 @@
     "dmg:arm64": "electron-builder --mac dmg:arm64"
   },
   "dependencies": {
-    "electron-context-menu": "^2.3.0"
+    "electron-context-menu": "^2.5.1"
   }
 }

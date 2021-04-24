@@ -62,14 +62,6 @@ const template = [
       },
       { type: 'separator' },
       {
-        label: 'The SunShining Podcast',
-        click: async () => {
-          const { shell } = require('electron')
-          await shell.openExternal('https://the-sunshining.github.io/The-SunShining-Podcast/')
-        }
-      },
-      { type: 'separator' },
-      {
         label: 'The SunShining',
         click: async () => {
           const { shell } = require('electron')
@@ -95,20 +87,16 @@ Menu.setApplicationMenu(menu)
 
 
 // Right Click Menu using - "electron-context-menu": "^2.3.0"
-const contextMenu = require('electron-context-menu');
-contextMenu({
-	menu: (actions, props, browserWindow) => [
-    {
-      label: 'SunBible',
-      submenu: [
-      { label: 'Copy Bible Verses', role: 'copy' },
-        { type: 'separator' }
-      ]
-    }
-		
-	]
-});
-
-
-
- 
+//const contextMenu = require('electron-context-menu');
+//contextMenu({
+//	menu: (actions, props, browserWindow) => [
+//    {
+//      label: 'SunBible',
+//      submenu: [
+//      { label: 'Copy Bible Verses', role: 'copy' },
+//        { type: 'separator' }
+//      ]
+//    }
+//		
+//	]
+//});

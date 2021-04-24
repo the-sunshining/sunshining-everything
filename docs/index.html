@@ -15,10 +15,10 @@
 
 
     <!-- <iframe id="TS-EveryThing-iframe" src="sun_shortcuts/shortcut.html"></iframe> -->
-    <iframe id="TS-EveryThing-iframe" src="sun_shortcuts/shortcut.html"></iframe>
+    <iframe name="TS-EveryThing-iframe" title="TS EveryThing iframe" src="sun_shortcuts/shortcut.html"></iframe>
 
     <header>
-        <a href="index.html" title="App Home" target="TS-EveryThing-iframee"><img src="img/home/1x/round_home_black_24dp.png" alt="App Home"/></a>
+        <a href="sun_shortcuts/shortcut.html" title="App Home"><img src="img/home/1x/round_home_black_24dp.png" alt="App Home"/></a>
     </header>
 
 
@@ -32,7 +32,15 @@
     <nav>
         <h3>The SunShining EveryThing</h3>
         <p>Quick and easy access to everything by The SunShining</p>
-
+        <hr class="rounded"/>
+        <p>While you are here you might want to do some reading?</p>
+        <a href="https://thesunshining.weebly.com/sunshining-blog"><div>Read the latest on The SunShining Blog!</div></a>
+        <a href="https://the-sunshining.github.io/SunBible/"><div>Read the Bible!</div></a>
+        <hr class="rounded"/>
+        <p>
+            Did you know that you can install "The SunShining EveryThing / SunShining ShortCuts" as a desktop app or mobile app or chrome extension?
+            Check the download links on the shortcuts page!
+        </p>
     </nav>
 
 
@@ -51,14 +59,23 @@
 
 <!-- Script -->
 <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
-<script type="text/javascript" src="js/jquery-migrate-3.3.1.min.js"></script>
-<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+
 <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
 <!-- <script type="text/javascript" src="js/EveryThingScript.js"></script> -->
 <script type="text/javascript" src="js/nav.js"></script>
 
 <script>
     $("nav a").attr("target","TS-EveryThing-iframe");
+</script>
+<script>
+    $("header a").attr("target","TS-EveryThing-iframe");
+</script>
+
+<script>
+    $('nav a').click(function(){
+        $("nav").toggle();
+        $(".NavLink").toggleClass("change");
+    });
 </script>
 
 

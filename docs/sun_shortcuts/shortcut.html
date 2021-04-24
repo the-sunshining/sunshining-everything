@@ -95,7 +95,6 @@
 
 <p>If you don't know what SunBible link to click on, just click on the first one.</p>
 
-<hr class="rounded"/>
 
 <!-- <h3>Get the SunBible app</h3> -->
 <h3>Get the SunBible app</h3>
@@ -303,6 +302,15 @@
     </p>
 </footer>
 
+<!-- <script></script> -->
+<!-- Service worker for web app -->
+<script>
+    if('serviceWorker' in navigator) {
+     navigator.serviceWorker
+              .register('sw.js', { scope: '/thesunshining-everything/' })
+              .then(function() { console.log("Service Worker Registered"); });
+   }
+</script>
 
 </body>
 </html>

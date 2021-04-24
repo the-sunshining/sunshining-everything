@@ -77,15 +77,6 @@ z-index: 2;
 nav a {
 text-decoration: none;
 }
-#whatread_two a div {
-background-color: rgb(253, 253, 177);
-border: 3px solid yellow;
-float: left;
-}
-#whatread_two a div:hover {
-border: 3px solid blue;
-background-color: yellow;
-}
 
 nav img {
   width: 100px;
@@ -93,4 +84,42 @@ nav img {
 }
 nav img:hover {
   border: 3px solid blue;
+}
+
+
+
+/*
+*
+* Copy from shortcuts css
+*
+*
+*/
+
+/* Rounded border */
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+  width: 100%;
+}
+
+/* In sync with a*/
+nav a div {
+  padding: 20px;
+  font-size: 20px;
+  background-color: yellow;
+  color: red;
+  border: 1px solid red;
+}
+nav a div:hover {
+  color: yellow;
+  background-color: rgba(255, 0, 0, 0.856);
+  border: 1px solid blue;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+a:hover {
+  color: yellow;
 }
