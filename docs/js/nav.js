@@ -1,8 +1,8 @@
 $(document).ready(function(){
 
-        $(".Nav_C").click(function(){
-            $("#TheSunShiningEverythingSidebar").toggle();
-            $(".Nav_C").toggleClass("change");
+        $(".NavLink").click(function(){
+            $("nav").toggle();
+            $(".NavLink").toggleClass("change");
         });
     
     

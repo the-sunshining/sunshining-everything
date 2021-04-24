@@ -37,7 +37,7 @@
     }
   },
   "name": "sunshining-everything",
-  "version": "0.0.3",
+  "version": "0.0.4-beta-test-1",
   "description": "Quick and easy access to everything by The SunShining",
   "main": "main.js",
   "homepage": "https://github.com/the-sunshining/thesunshining-everything",
@@ -64,12 +64,22 @@
     "pack": "electron-builder --dir",
     "dist": "electron-builder",
     "deb": "electron-builder --linux deb",
+    "deb:x64": "electron-builder --linux deb:x64",
+    "deb:arm64": "electron-builder --linux deb:arm64",
+    "rpm": "electron-builder --linux rpm",
     "AppImage": "electron-builder --linux AppImage",
     "snap": "electron-builder --linux snap",
+    "snap:x64": "electron-builder --linux snap:x64",
+    "snap:arm64": "electron-builder --linux snap:arm64",
     "apk": "electron-builder --linux apk",
     "appx": "electron-builder --windows appx",
     "nsis": "electron-builder --win nsis",
-    "dmg": "electron-builder --mac dmg"
+    "nsis:x64": "electron-builder --win nsis:x64",
+    "nsis:arm64": "electron-builder --win nsis::arm64",
+    "nsis:ia32": "electron-builder --win nsis:ia32",
+    "nsis-web": "electron-builder --win nsis-web",
+    "dmg": "electron-builder --mac dmg",
+    "dmg:arm64": "electron-builder --mac dmg:arm64"
   },
   "dependencies": {
     "electron-context-menu": "^2.3.0"
