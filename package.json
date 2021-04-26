@@ -37,7 +37,7 @@
     }
   },
   "name": "sunshining-everything",
-  "version": "0.0.4-beta-test-4",
+  "version": "0.0.4-beta",
   "description": "Quick and easy access to everything by The SunShining",
   "main": "main.js",
   "homepage": "https://github.com/the-sunshining/thesunshining-everything",

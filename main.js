@@ -15,11 +15,7 @@ app.on('ready', async () => {
 
   const mainWindow = new BrowserWindow({
     width,
-    height,
-    webPreferences: {
-      nodeIntegration: true,
-      webviewTag: true
-    }
+    height
   })
 
   mainWindow.loadFile('docs/index.html')
