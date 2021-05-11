@@ -4,7 +4,7 @@
       "default_icon": "sun_shortcuts/img/Sun.png",
       "default_popup": "sun_shortcuts/shortcut.html"
    },
-   "description": "ShortCuts to The SunShining Sites",
+   "description": "ShortCuts to EveryThing by NCR with The SunShining",
    "icons": {
       "128": "sun_shortcuts/img/Sun.png",
       "16": "sun_shortcuts/img/Sun.png",
@@ -13,5 +13,5 @@
   "manifest_version": 2,
    "name": "SunShining ShortCuts",
    "offline_enabled": false,
-   "version": "3.0.1"
+   "version": "3.0.2"
 }
